@@ -1,0 +1,477 @@
+﻿{
+	"map": [
+		{
+			"id": 2147483647,
+			"path": "Sources/Methods/AJUI_GetSet_PBWindowColor.4dm"
+		},
+		{
+			"id": 2147483646,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBarColor.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Methods/AJUI_GetSet_CPBRadiusAutoSize.4dm"
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Methods/AJUI_GetSet_CPBTitle.4dm"
+		},
+		{
+			"id": 2147483643,
+			"path": "Sources/Methods/AJUI_infoLab.4dm"
+		},
+		{
+			"id": 2147483642,
+			"path": "Sources/Methods/HDI_Dialog_TestPB.4dm"
+		},
+		{
+			"id": 2147483641,
+			"path": "Sources/Methods/AJUI_GetSet_CPBTextFontColor.4dm"
+		},
+		{
+			"id": 2147483640,
+			"path": "Sources/Methods/AJUI_PBdrawSVG.4dm"
+		},
+		{
+			"id": 2147483639,
+			"path": "Sources/Methods/HDI_drawItCircularPB.4dm"
+		},
+		{
+			"id": 2147483638,
+			"path": "Sources/Methods/quit_4D.4dm"
+		},
+		{
+			"id": 2147483637,
+			"path": "Sources/Methods/AJUI_GetSet_CPBAnimation.4dm"
+		},
+		{
+			"id": 2147483636,
+			"path": "Sources/Methods/AJUI_CPBdraw.4dm"
+		},
+		{
+			"id": 2147483635,
+			"path": "Sources/Methods/AJUI_ExtractColor.4dm"
+		},
+		{
+			"id": 2147483634,
+			"path": "Sources/Methods/AJUI_GetSet_PBTextFontSize.4dm"
+		},
+		{
+			"id": 2147483633,
+			"path": "Sources/Methods/Utl_fontAlignement2Constant.4dm"
+		},
+		{
+			"id": 2147483632,
+			"path": "Sources/Methods/AJUI_GetSet_PBBGColor.4dm"
+		},
+		{
+			"id": 2147483631,
+			"path": "Sources/Methods/AJUI_GetSet_PBAreaWidth.4dm"
+		},
+		{
+			"id": 2147483630,
+			"path": "Sources/Methods/AJUI_GetSet_PBPercentDisplay.4dm"
+		},
+		{
+			"id": 2147483629,
+			"path": "Sources/Methods/AJUI_GetSet_PBBorderSize.4dm"
+		},
+		{
+			"id": 2147483628,
+			"path": "Sources/Methods/HDI_setPB_percent.4dm"
+		},
+		{
+			"id": 2147483627,
+			"path": "Sources/Methods/AJUI_GetSet_PBPercentValue.4dm"
+		},
+		{
+			"id": 2147483626,
+			"path": "Sources/Methods/AJUI_PB_initFormulas.4dm"
+		},
+		{
+			"id": 2147483625,
+			"path": "Sources/Methods/AJUI_CPBdrawSVG.4dm"
+		},
+		{
+			"id": 2147483624,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBackgroundFillCo.4dm"
+		},
+		{
+			"id": 2147483623,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBackgroundWidth.4dm"
+		},
+		{
+			"id": 2147483622,
+			"path": "Sources/Methods/AJUI_initSVGCircle.4dm"
+		},
+		{
+			"id": 2147483621,
+			"path": "Sources/Methods/AJUI_GetSet_PBTitle.4dm"
+		},
+		{
+			"id": 2147483620,
+			"path": "Sources/Methods/New AJUI_CircularProgressBar.4dm"
+		},
+		{
+			"id": 2147483619,
+			"path": "Sources/Methods/AJUI_GetSet_CPBTextFontStyle.4dm"
+		},
+		{
+			"id": 2147483618,
+			"path": "Sources/Methods/AJUI_GetSet_PBBarSpeed.4dm"
+		},
+		{
+			"id": 2147483617,
+			"path": "Sources/Methods/AJUI_GetSet_PBCornerRadius.4dm"
+		},
+		{
+			"id": 2147483616,
+			"path": "Sources/Methods/AJUI_GetSet_CPBSubtitle.4dm"
+		},
+		{
+			"id": 2147483615,
+			"path": "Sources/Methods/HDI_Dialog_TestCPB.4dm"
+		},
+		{
+			"id": 2147483614,
+			"path": "Sources/Methods/AJUI_GetSet_CPBTextFontName.4dm"
+		},
+		{
+			"id": 2147483613,
+			"path": "Sources/Methods/AJUI_LaunchBarberShopProcess.4dm"
+		},
+		{
+			"id": 2147483612,
+			"path": "Sources/Methods/Method20.4dm"
+		},
+		{
+			"id": 2147483611,
+			"path": "Sources/Methods/AJUI_CPBStopProcess.4dm"
+		},
+		{
+			"id": 2147483610,
+			"path": "Sources/Methods/AJUI_ResizePictObjAfterDraw.4dm"
+		},
+		{
+			"id": 2147483609,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBarWidth.4dm"
+		},
+		{
+			"id": 2147483608,
+			"path": "Sources/Methods/AJUI_GetSet_CPBPictFormObjName.4dm"
+		},
+		{
+			"id": 2147483607,
+			"path": "Sources/Methods/AJUI_GetSet_CPBPercentDisplay.4dm"
+		},
+		{
+			"id": 2147483606,
+			"path": "Sources/Methods/AJUI_initSVGArc.4dm"
+		},
+		{
+			"id": 2147483605,
+			"path": "Sources/Methods/AJUI_ProgressBar_Info.4dm"
+		},
+		{
+			"id": 2147483604,
+			"path": "Sources/Methods/AJUI_StorageHandler.4dm"
+		},
+		{
+			"id": 2147483603,
+			"path": "Sources/Methods/AJUI_GetSet_PBPictFormObjName.4dm"
+		},
+		{
+			"id": 2147483602,
+			"path": "Sources/Methods/AJUI_LaunchCPBBarberShopProcess.4dm"
+		},
+		{
+			"id": 2147483601,
+			"path": "Sources/Methods/AJUI_GetSet_CPBTextFontSize.4dm"
+		},
+		{
+			"id": 2147483600,
+			"path": "Sources/Methods/HDI_Dialog_Dashboard.4dm"
+		},
+		{
+			"id": 2147483599,
+			"path": "Sources/Methods/AJUI_LaunchCPBProcess.4dm"
+		},
+		{
+			"id": 2147483598,
+			"path": "Sources/Methods/AJUI_GetSet_PBTextPosition.4dm"
+		},
+		{
+			"id": 2147483597,
+			"path": "Sources/Methods/AJUI_GetSet_PBAreaHeight.4dm"
+		},
+		{
+			"id": 2147483596,
+			"path": "Sources/Methods/AJUI_PBdraw.4dm"
+		},
+		{
+			"id": 2147483595,
+			"path": "Sources/Methods/AJUI_GetSet_CPBRadius.4dm"
+		},
+		{
+			"id": 2147483594,
+			"path": "Sources/Methods/AJUI_GetSet_PBBarColor.4dm"
+		},
+		{
+			"id": 2147483593,
+			"path": "Sources/Methods/AJUI_GetSet_PBBarOffset.4dm"
+		},
+		{
+			"id": 2147483592,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBarLinecap.4dm"
+		},
+		{
+			"id": 2147483591,
+			"path": "Sources/Methods/Utl_fontStyle2Constant.4dm"
+		},
+		{
+			"id": 2147483590,
+			"path": "Sources/Methods/AJUI_PBProcessHandler.4dm"
+		},
+		{
+			"id": 2147483589,
+			"path": "Sources/Methods/AJUI_CPBProcessHandler.4dm"
+		},
+		{
+			"id": 2147483588,
+			"path": "Sources/Methods/AJUI_GetSet_PBTextFontStyle.4dm"
+		},
+		{
+			"id": 2147483587,
+			"path": "Sources/Methods/AJUI_CPB_Init.4dm"
+		},
+		{
+			"id": 2147483586,
+			"path": "Sources/Methods/AJUI_PBanimationHandler.4dm"
+		},
+		{
+			"id": 2147483585,
+			"path": "Sources/Methods/HDI_Dialog_MultiBarbershop.4dm"
+		},
+		{
+			"id": 2147483584,
+			"path": "Sources/Methods/AJUI_PB_buildComponent.4dm"
+		},
+		{
+			"id": 2147483583,
+			"path": "Sources/Methods/AJUI_LaunchPBProcess.4dm"
+		},
+		{
+			"id": 2147483582,
+			"path": "Sources/Methods/AJUI_GetSet_PBTextFontName.4dm"
+		},
+		{
+			"id": 2147483581,
+			"path": "Sources/Methods/AJUI_GetSet_PBAnimation.4dm"
+		},
+		{
+			"id": 2147483580,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBackgroundColor.4dm"
+		},
+		{
+			"id": 2147483579,
+			"path": "Sources/Methods/AJUI_PBStopProcess.4dm"
+		},
+		{
+			"id": 2147483578,
+			"path": "Sources/Methods/AJUI_CPB_InitFormulas.4dm"
+		},
+		{
+			"id": 2147483577,
+			"path": "Sources/Methods/AJUI_CPBanimationHandler.4dm"
+		},
+		{
+			"id": 2147483576,
+			"path": "Sources/Methods/AJUI_GetSet_CPBPercentValue.4dm"
+		},
+		{
+			"id": 2147483575,
+			"path": "Sources/Methods/AJUI_GetSet_PBBorderColor.4dm"
+		},
+		{
+			"id": 2147483574,
+			"path": "Sources/Methods/AJUI_GetSet_CPBBarSpeed.4dm"
+		},
+		{
+			"id": 2147483573,
+			"path": "Sources/Methods/AJUI_PB_Init.4dm"
+		},
+		{
+			"id": 2147483572,
+			"path": "Sources/Methods/New AJUI_ProgressBar.4dm"
+		},
+		{
+			"id": 2147483571,
+			"path": "Sources/Methods/AJUI_GetSet_PBTextFontColor.4dm"
+		},
+		{
+			"id": 2147483570,
+			"path": "Trash/Methods/(AJUI_autoRadiusSizeCalc).4dm"
+		},
+		{
+			"id": 2147483569,
+			"path": "Trash/Methods/(AJUI_GetSet_PBTextAlign).4dm"
+		},
+		{
+			"id": 2147483568,
+			"path": "Sources/DatabaseMethods/onStartup.4dm"
+		},
+		{
+			"id": 2147483567,
+			"path": "Sources/Forms/AJUI_testCircularPB/method.4dm"
+		},
+		{
+			"id": 2147483566,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/Invisible Button1.4dm"
+		},
+		{
+			"id": 2147483565,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/Button.4dm"
+		},
+		{
+			"id": 2147483564,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/cbpPercentValueCurrent_fo.4dm"
+		},
+		{
+			"id": 2147483563,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/Thermometer.4dm"
+		},
+		{
+			"id": 2147483562,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/cbpPercentDisplay_fo.4dm"
+		},
+		{
+			"id": 2147483561,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/style_obj.4dm"
+		},
+		{
+			"id": 2147483560,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/linecap_popup_fo.4dm"
+		},
+		{
+			"id": 2147483559,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/Button8.4dm"
+		},
+		{
+			"id": 2147483558,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/runBarbershop_cb.4dm"
+		},
+		{
+			"id": 2147483557,
+			"path": "Sources/Forms/AJUI_testCircularPB/ObjectMethods/cbpPercentDisplay_fo1.4dm"
+		},
+		{
+			"id": 2147483556,
+			"path": "Sources/Forms/AJUI_testProgressbar/method.4dm"
+		},
+		{
+			"id": 2147483555,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Invisible Button1.4dm"
+		},
+		{
+			"id": 2147483554,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/position_obj.4dm"
+		},
+		{
+			"id": 2147483553,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/progressbar_ruler.4dm"
+		},
+		{
+			"id": 2147483552,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Check Box1.4dm"
+		},
+		{
+			"id": 2147483551,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button8.4dm"
+		},
+		{
+			"id": 2147483550,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button6.4dm"
+		},
+		{
+			"id": 2147483549,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/style_obj.4dm"
+		},
+		{
+			"id": 2147483548,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/speed_thermo.4dm"
+		},
+		{
+			"id": 2147483547,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button4.4dm"
+		},
+		{
+			"id": 2147483546,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button3.4dm"
+		},
+		{
+			"id": 2147483545,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Check Box.4dm"
+		},
+		{
+			"id": 2147483544,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button5.4dm"
+		},
+		{
+			"id": 2147483543,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button.4dm"
+		},
+		{
+			"id": 2147483542,
+			"path": "Sources/Forms/AJUI_testProgressbar/ObjectMethods/runBarbershop_cb.4dm"
+		},
+		{
+			"id": 2147483541,
+			"path": "Sources/Forms/AJUI_testDashboard/method.4dm"
+		},
+		{
+			"id": 2147483540,
+			"path": "Sources/Forms/AJUI_testDashboard/ObjectMethods/Invisible Button1.4dm"
+		},
+		{
+			"id": 2147483539,
+			"path": "Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton2.4dm"
+		},
+		{
+			"id": 2147483538,
+			"path": "Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton.4dm"
+		},
+		{
+			"id": 2147483537,
+			"path": "Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton1.4dm"
+		},
+		{
+			"id": 2147483536,
+			"path": "Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton3.4dm"
+		},
+		{
+			"id": 2147483535,
+			"path": "Sources/Forms/AJUI_testMultiBarbershop/method.4dm"
+		},
+		{
+			"id": 2147483534,
+			"path": "Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Invisible Button1.4dm"
+		},
+		{
+			"id": 2147483533,
+			"path": "Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton3.4dm"
+		},
+		{
+			"id": 2147483532,
+			"path": "Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton1.4dm"
+		},
+		{
+			"id": 2147483531,
+			"path": "Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton.4dm"
+		},
+		{
+			"id": 2147483530,
+			"path": "Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton2.4dm"
+		}
+	],
+	"arch64": true
+}

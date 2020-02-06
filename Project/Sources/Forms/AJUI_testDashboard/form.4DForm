@@ -1,0 +1,316 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onCloseBox"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 836,
+					"height": 530,
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 836,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 406,
+					"left": 33,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 10,
+					"left": 182,
+					"width": 471,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 74,
+					"left": 242,
+					"width": 350,
+					"height": 30,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI ProgressBar"
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 406,
+					"left": 28,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 510,
+					"left": 816,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				}
+			}
+		},
+		{
+			"objects": {
+				"circularPB_fo1": {
+					"type": "input",
+					"top": 209,
+					"left": 24,
+					"width": 200,
+					"height": 200,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"circularPB_fo2": {
+					"type": "input",
+					"top": 209,
+					"left": 318,
+					"width": 200,
+					"height": 200,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"circularPB_fo3": {
+					"type": "input",
+					"top": 209,
+					"left": 612,
+					"width": 200,
+					"height": 200,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bouton3": {
+					"type": "button",
+					"top": 462,
+					"left": 272,
+					"width": 99,
+					"height": 36,
+					"text": "Reset",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 462,
+					"left": 392,
+					"width": 99,
+					"height": 36,
+					"text": "Step 1",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 462,
+					"left": 512,
+					"width": 99,
+					"height": 36,
+					"text": "Step 2",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton2": {
+					"type": "button",
+					"top": 462,
+					"left": 632,
+					"width": 99,
+					"height": 36,
+					"text": "Step 3",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"PB_fo1": {
+					"type": "input",
+					"top": 147,
+					"left": 208,
+					"width": 445,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 124,
+					"left": 256,
+					"width": 321,
+					"height": 20,
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Daily order fulfillment"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 505,
+					"left": 567,
+					"width": 248,
+					"height": 14,
+					"dataSource": "AJUI_ProgressBar_Info ",
+					"stroke": "#808080",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Texte": {
+					"type": "text",
+					"top": 190,
+					"left": 24,
+					"width": 200,
+					"height": 20,
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Production"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 190,
+					"left": 318,
+					"width": 200,
+					"height": 20,
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Packaging"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 190,
+					"left": 612,
+					"width": 200,
+					"height": 20,
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Delivery"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 505,
+					"left": 16,
+					"width": 171,
+					"height": 14,
+					"dataSource": "AJUI_infoLab ",
+					"stroke": "#808080",
+					"textAlign": "left",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

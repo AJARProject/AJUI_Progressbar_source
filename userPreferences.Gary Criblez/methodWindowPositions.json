@@ -1,0 +1,704 @@
+﻿{
+	"Sources/Methods/AJUI_PBdrawSVG.4dm": {
+		"left": 105,
+		"top": 201,
+		"width": 1713,
+		"height": 1015
+	},
+	"Sources/Methods/AJUI_PBdraw.4dm": {
+		"left": 199,
+		"top": 249,
+		"width": 1261,
+		"height": 776
+	},
+	"Sources/Methods/AJUI_PBanimationHandler.4dm": {
+		"left": 152,
+		"top": 227,
+		"width": 1282,
+		"height": 1008
+	},
+	"Sources/Methods/AJUI_PBProcessHandler.4dm": {
+		"left": 199,
+		"top": 500,
+		"width": 1261,
+		"height": 826
+	},
+	"Sources/Methods/AJUI_GetSet_PBCornerRadius.4dm": {
+		"left": 814,
+		"top": 194,
+		"width": 1047,
+		"height": 740
+	},
+	"Sources/Methods/AJUI_GetSet_PBBGColor.4dm": {
+		"left": 1244,
+		"top": 676,
+		"width": 1712,
+		"height": 611
+	},
+	"Sources/Methods/AJUI_GetSet_PBAreaWidth.4dm": {
+		"left": 1005,
+		"top": 279,
+		"width": 890,
+		"height": 573
+	},
+	"Sources/Methods/AJUI_GetSet_PBAreaHeight.4dm": {
+		"left": 972,
+		"top": 186,
+		"width": 1047,
+		"height": 715
+	},
+	"Sources/Methods/AJUI_GetSet_PBBorderSize.4dm": {
+		"left": 1302,
+		"top": 383,
+		"width": 1047,
+		"height": 690
+	},
+	"Sources/Methods/AJUI_GetSet_PBBorderColor.4dm": {
+		"left": 1675,
+		"top": 650,
+		"width": 1047,
+		"height": 615
+	},
+	"Sources/Methods/HDI_setPB_percent.4dm": {
+		"left": 469,
+		"top": 424,
+		"width": 1261,
+		"height": 726
+	},
+	"Sources/Methods/Method20.4dm": {
+		"left": 1216,
+		"top": 268,
+		"width": 1377,
+		"height": 974
+	},
+	"Sources/Methods/AJUI_PB_Init.4dm": {
+		"left": 1074,
+		"top": 241,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/Utl_fontStyle2Constant.4dm": {
+		"left": 317,
+		"top": 174,
+		"width": 1261,
+		"height": 751
+	},
+	"Sources/Methods/Utl_fontAlignement2Constant.4dm": {
+		"left": 752,
+		"top": 377,
+		"width": 1261,
+		"height": 751
+	},
+	"Sources/Methods/AJUI_CPBdrawSVG.4dm": {
+		"left": 1296,
+		"top": 532,
+		"width": 1907,
+		"height": 1060
+	},
+	"Sources/Methods/AJUI_CPB_Init.4dm": {
+		"left": 1037,
+		"top": 739,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_initSVGCircle.4dm": {
+		"left": 566,
+		"top": 224,
+		"width": 1387,
+		"height": 1107
+	},
+	"Sources/Methods/AJUI_PB_initFormulas.4dm": {
+		"left": 1037,
+		"top": 739,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_ExtractColor.4dm": {
+		"left": 868,
+		"top": 128,
+		"width": 1312,
+		"height": 926
+	},
+	"Sources/Methods/AJUI_initSVGArc.4dm": {
+		"left": 775,
+		"top": 330,
+		"width": 1312,
+		"height": 890
+	},
+	"Sources/Methods/HDI_drawItCircularPB.4dm": {
+		"left": 844,
+		"top": 624,
+		"width": 1006,
+		"height": 743
+	},
+	"Sources/Methods/New AJUI_ProgressBar.4dm": {
+		"left": 1799,
+		"top": 357,
+		"width": 1047,
+		"height": 690
+	},
+	"Sources/Methods/New AJUI_CircularProgressBar.4dm": {
+		"left": 1037,
+		"top": 739,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_CPB_InitFormulas.4dm": {
+		"left": 1037,
+		"top": 714,
+		"width": 1187,
+		"height": 654
+	},
+	"Sources/Methods/AJUI_GetSet_PBWindowColor.4dm": {
+		"left": 1440,
+		"top": 590,
+		"width": 1034,
+		"height": 761
+	},
+	"Sources/Methods/AJUI_GetSet_PBBarColor.4dm": {
+		"left": 1423,
+		"top": 437,
+		"width": 1131,
+		"height": 684
+	},
+	"Sources/Methods/AJUI_GetSet_PBBarOffset.4dm": {
+		"left": 1555,
+		"top": 495,
+		"width": 1047,
+		"height": 590
+	},
+	"Sources/Methods/AJUI_GetSet_PBPictFormObjName.4dm": {
+		"left": 1010,
+		"top": 443,
+		"width": 1638,
+		"height": 740
+	},
+	"Sources/Methods/AJUI_GetSet_PBPercentDisplay.4dm": {
+		"left": 1314,
+		"top": 493,
+		"width": 1638,
+		"height": 740
+	},
+	"Sources/Methods/AJUI_GetSet_PBTextFontName.4dm": {
+		"left": 1261,
+		"top": 591,
+		"width": 1638,
+		"height": 740
+	},
+	"Sources/Methods/AJUI_GetSet_PBTextFontStyle.4dm": {
+		"left": 1199,
+		"top": 512,
+		"width": 1638,
+		"height": 740
+	},
+	"Sources/Methods/AJUI_GetSet_PBTextFontSize.4dm": {
+		"left": 1192,
+		"top": 270,
+		"width": 1638,
+		"height": 740
+	},
+	"Trash/Methods/(AJUI_GetSet_PBTextAlign).4dm": {
+		"left": 1192,
+		"top": 270,
+		"width": 1638,
+		"height": 740
+	},
+	"Sources/Methods/AJUI_GetSet_PBPercentValue.4dm": {
+		"left": 1398,
+		"top": 754,
+		"width": 1746,
+		"height": 651
+	},
+	"Sources/Methods/AJUI_GetSet_PBBarSpeed.4dm": {
+		"left": 1178,
+		"top": 683,
+		"width": 1856,
+		"height": 779
+	},
+	"Sources/Methods/AJUI_LaunchPBProcess.4dm": {
+		"left": 721,
+		"top": 522,
+		"width": 1387,
+		"height": 678
+	},
+	"Sources/Methods/AJUI_LaunchBarberShopProcess.4dm": {
+		"left": 1707,
+		"top": 703,
+		"width": 1261,
+		"height": 776
+	},
+	"Sources/Methods/AJUI_PBStopProcess.4dm": {
+		"left": 96,
+		"top": 704,
+		"width": 1607,
+		"height": 601
+	},
+	"Sources/Methods/AJUI_ResizePictObjAfterDraw.4dm": {
+		"left": 1259,
+		"top": 514,
+		"width": 1229,
+		"height": 800
+	},
+	"Sources/Methods/AJUI_GetSet_CPBRadius.4dm": {
+		"left": -12,
+		"top": 463,
+		"width": 1988,
+		"height": 1227
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBackgroundWidth.4dm": {
+		"left": 1037,
+		"top": 739,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBackgroundColor.4dm": {
+		"left": 599,
+		"top": 616,
+		"width": 1261,
+		"height": 876
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBackgroundFillCo.4dm": {
+		"left": 551,
+		"top": 215,
+		"width": 1377,
+		"height": 824
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBarWidth.4dm": {
+		"left": 1054,
+		"top": 658,
+		"width": 1387,
+		"height": 678
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBarColor.4dm": {
+		"left": 1306,
+		"top": 603,
+		"width": 1229,
+		"height": 800
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBarSpeed.4dm": {
+		"left": 1306,
+		"top": 603,
+		"width": 1229,
+		"height": 800
+	},
+	"Sources/Methods/AJUI_GetSet_CPBBarLinecap.4dm": {
+		"left": 1227,
+		"top": 644,
+		"width": 1229,
+		"height": 800
+	},
+	"Sources/Methods/AJUI_GetSet_CPBPercentDisplay.4dm": {
+		"left": 381,
+		"top": 340,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_GetSet_CPBPercentValue.4dm": {
+		"left": 820,
+		"top": 330,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_GetSet_CPBTextFontName.4dm": {
+		"left": 820,
+		"top": 330,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_GetSet_CPBTextFontSize.4dm": {
+		"left": 820,
+		"top": 330,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_GetSet_CPBTextFontColor.4dm": {
+		"left": 384,
+		"top": 365,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_GetSet_CPBTextFontStyle.4dm": {
+		"left": 643,
+		"top": 241,
+		"width": 1047,
+		"height": 490
+	},
+	"Sources/Methods/AJUI_CPBProcessHandler.4dm": {
+		"left": 1458,
+		"top": 551,
+		"width": 1261,
+		"height": 826
+	},
+	"Sources/Methods/AJUI_CPBdraw.4dm": {
+		"left": 1393,
+		"top": 337,
+		"width": 1343,
+		"height": 1148
+	},
+	"Sources/Methods/AJUI_LaunchCPBProcess.4dm": {
+		"left": 548,
+		"top": 501,
+		"width": 1312,
+		"height": 926
+	},
+	"Sources/Methods/AJUI_GetSet_CPBPictFormObjName.4dm": {
+		"left": 1186,
+		"top": 618,
+		"width": 1318,
+		"height": 926
+	},
+	"Sources/Methods/AJUI_CPBanimationHandler.4dm": {
+		"left": 1450,
+		"top": 372,
+		"width": 1330,
+		"height": 871
+	},
+	"Sources/Methods/AJUI_LaunchCPBBarberShopProcess.4dm": {
+		"left": 1187,
+		"top": 541,
+		"width": 1168,
+		"height": 750
+	},
+	"Sources/Methods/AJUI_GetSet_CPBTitle.4dm": {
+		"left": 455,
+		"top": 176,
+		"width": 1658,
+		"height": 926
+	},
+	"Sources/Methods/AJUI_GetSet_CPBSubtitle.4dm": {
+		"left": 1349,
+		"top": 614,
+		"width": 1658,
+		"height": 926
+	},
+	"Sources/Methods/AJUI_CPBStopProcess.4dm": {
+		"left": 1674,
+		"top": 676,
+		"width": 1261,
+		"height": 826
+	},
+	"Sources/Methods/AJUI_StorageHandler.4dm": {
+		"left": 850,
+		"top": 143,
+		"width": 1053,
+		"height": 1098
+	},
+	"Sources/Methods/AJUI_GetSet_CPBAnimation.4dm": {
+		"left": 1659,
+		"top": 653,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Methods/AJUI_GetSet_PBAnimation.4dm": {
+		"left": 470,
+		"top": 236,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_GetSet_PBTitle.4dm": {
+		"left": 1347,
+		"top": 584,
+		"width": 1261,
+		"height": 851
+	},
+	"Sources/Methods/AJUI_GetSet_PBTextPosition.4dm": {
+		"left": 548,
+		"top": 465,
+		"width": 1093,
+		"height": 865
+	},
+	"Sources/Methods/HDI_Dialog_TestCPB.4dm": {
+		"left": 1621,
+		"top": 359,
+		"width": 1229,
+		"height": 775
+	},
+	"Sources/Methods/HDI_Dialog_TestPB.4dm": {
+		"left": 1726,
+		"top": 660,
+		"width": 1229,
+		"height": 775
+	},
+	"Sources/Methods/HDI_Dialog_Dashboard.4dm": {
+		"left": 2077,
+		"top": 541,
+		"width": 1047,
+		"height": 465
+	},
+	"Sources/Methods/HDI_Dialog_MultiBarbershop.4dm": {
+		"left": 1668,
+		"top": 653,
+		"width": 1047,
+		"height": 465
+	},
+	"Sources/Methods/AJUI_GetSet_PBTextFontColor.4dm": {
+		"left": 1265,
+		"top": 306,
+		"width": 1387,
+		"height": 1252
+	},
+	"Sources/Methods/AJUI_ProgressBar_Info.4dm": {
+		"left": 297,
+		"top": 151,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_PB_buildComponent.4dm": {
+		"left": 1037,
+		"top": 739,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_GetSet_CPBRadiusAutoSize.4dm": {
+		"left": 350,
+		"top": 684,
+		"width": 1907,
+		"height": 1060
+	},
+	"Trash/Methods/(AJUI_autoRadiusSizeCalc).4dm": {
+		"left": 1662,
+		"top": 788,
+		"width": 815,
+		"height": 723
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 1216,
+		"top": 268,
+		"width": 1377,
+		"height": 974
+	},
+	"Sources/Forms/AJUI_testProgressbar/method.4dm": {
+		"left": 1438,
+		"top": 415,
+		"width": 1004,
+		"height": 803
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Invisible Button1.4dm": {
+		"left": 511,
+		"top": 404,
+		"width": 941,
+		"height": 657
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button.4dm": {
+		"left": 1231,
+		"top": 519,
+		"width": 1712,
+		"height": 350
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button3.4dm": {
+		"left": 972,
+		"top": 536,
+		"width": 1047,
+		"height": 365
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button4.4dm": {
+		"left": 972,
+		"top": 661,
+		"width": 1047,
+		"height": 350
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button5.4dm": {
+		"left": 972,
+		"top": 461,
+		"width": 1047,
+		"height": 440
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button6.4dm": {
+		"left": 802,
+		"top": 292,
+		"width": 1712,
+		"height": 350
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Button8.4dm": {
+		"left": 1257,
+		"top": 642,
+		"width": 1607,
+		"height": 601
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/progressbar_ruler.4dm": {
+		"left": 532,
+		"top": 301,
+		"width": 1712,
+		"height": 350
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/runBarbershop_cb.4dm": {
+		"left": 297,
+		"top": 576,
+		"width": 1388,
+		"height": 868
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/speed_thermo.4dm": {
+		"left": 310,
+		"top": 678,
+		"width": 1638,
+		"height": 840
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Check Box.4dm": {
+		"left": 1568,
+		"top": 593,
+		"width": 1440,
+		"height": 350
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/style_obj.4dm": {
+		"left": 1228,
+		"top": 522,
+		"width": 1638,
+		"height": 765
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/Check Box1.4dm": {
+		"left": 1231,
+		"top": 569,
+		"width": 1712,
+		"height": 325
+	},
+	"Sources/Forms/AJUI_testProgressbar/ObjectMethods/position_obj.4dm": {
+		"left": 13,
+		"top": 446,
+		"width": 798,
+		"height": 732
+	},
+	"Sources/Forms/AJUI_testCircularPB/method.4dm": {
+		"left": 1733,
+		"top": 633,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/Invisible Button1.4dm": {
+		"left": 511,
+		"top": 404,
+		"width": 941,
+		"height": 657
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/Button.4dm": {
+		"left": 1739,
+		"top": 688,
+		"width": 1006,
+		"height": 718
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/cbpPercentValueCurrent_fo.4dm": {
+		"left": 720,
+		"top": 852,
+		"width": 1006,
+		"height": 768
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/Thermometer.4dm": {
+		"left": 71,
+		"top": 211,
+		"width": 1912,
+		"height": 1098
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/cbpPercentDisplay_fo.4dm": {
+		"left": 1274,
+		"top": 596,
+		"width": 1006,
+		"height": 743
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/style_obj.4dm": {
+		"left": 1244,
+		"top": 749,
+		"width": 1004,
+		"height": 653
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/linecap_popup_fo.4dm": {
+		"left": 1211,
+		"top": 430,
+		"width": 1156,
+		"height": 543
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/Button8.4dm": {
+		"left": 409,
+		"top": 827,
+		"width": 1261,
+		"height": 851
+	},
+	"Sources/Forms/AJUI_testCircularPB/ObjectMethods/runBarbershop_cb.4dm": {
+		"left": 409,
+		"top": 827,
+		"width": 1261,
+		"height": 851
+	},
+	"Sources/Forms/AJUI_testDashboard/method.4dm": {
+		"left": 1037,
+		"top": 739,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Forms/AJUI_testDashboard/ObjectMethods/Invisible Button1.4dm": {
+		"left": 511,
+		"top": 404,
+		"width": 941,
+		"height": 657
+	},
+	"Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton3.4dm": {
+		"left": 1423,
+		"top": 437,
+		"width": 1047,
+		"height": 490
+	},
+	"Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton.4dm": {
+		"left": 540,
+		"top": 186,
+		"width": 1053,
+		"height": 1073
+	},
+	"Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton1.4dm": {
+		"left": 1423,
+		"top": 437,
+		"width": 1047,
+		"height": 490
+	},
+	"Sources/Forms/AJUI_testDashboard/ObjectMethods/Bouton2.4dm": {
+		"left": 1423,
+		"top": 437,
+		"width": 1047,
+		"height": 490
+	},
+	"Sources/Forms/AJUI_testMultiBarbershop/method.4dm": {
+		"left": 666,
+		"top": 775,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Invisible Button1.4dm": {
+		"left": 511,
+		"top": 404,
+		"width": 941,
+		"height": 657
+	},
+	"Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton.4dm": {
+		"left": 627,
+		"top": 885,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton1.4dm": {
+		"left": 1610,
+		"top": 847,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton2.4dm": {
+		"left": 627,
+		"top": 885,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Forms/AJUI_testMultiBarbershop/ObjectMethods/Bouton3.4dm": {
+		"left": 666,
+		"top": 775,
+		"width": 1105,
+		"height": 739
+	},
+	"Sources/Methods/quit_4D.4dm": {
+		"left": 297,
+		"top": 151,
+		"width": 1187,
+		"height": 629
+	},
+	"Sources/Methods/AJUI_infoLab.4dm": {
+		"left": 726,
+		"top": 798,
+		"width": 1187,
+		"height": 629
+	}
+}

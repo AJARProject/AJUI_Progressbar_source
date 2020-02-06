@@ -1,0 +1,31 @@
+﻿{
+	"style": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "None",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Bold",
+				"ref": 1,
+				"editable": true,
+				"fontWeight": "bold"
+			},
+			{
+				"text": "Italic",
+				"ref": 2,
+				"editable": false,
+				"fontStyle": "italic"
+			},
+			{
+				"text": "Underline",
+				"ref": 4,
+				"editable": false,
+				"textDecoration": "underline"
+			}
+		]
+	}
+}

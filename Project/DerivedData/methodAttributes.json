@@ -1,0 +1,481 @@
+﻿{
+	"methods": {
+		"AJUI_GetSet_PBWindowColor": {
+			"timeStamp": "2020-01-20T10:26:04.656Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBarColor": {
+			"timeStamp": "2020-01-20T10:26:04.664Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBRadiusAutoSize": {
+			"timeStamp": "2020-01-20T10:56:54.858Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBTitle": {
+			"timeStamp": "2020-01-20T10:26:04.685Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_infoLab": {
+			"timeStamp": "2020-01-20T10:36:52.301Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HDI_Dialog_TestPB": {
+			"timeStamp": "2020-01-20T10:26:04.690Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"AJUI_GetSet_CPBTextFontColor": {
+			"timeStamp": "2020-01-20T10:26:04.667Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PBdrawSVG": {
+			"timeStamp": "2020-01-20T10:26:04.642Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HDI_drawItCircularPB": {
+			"timeStamp": "2020-01-20T10:26:04.654Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"quit_4D": {
+			"timeStamp": "2020-01-20T10:27:03.246Z"
+		},
+		"AJUI_GetSet_CPBAnimation": {
+			"timeStamp": "2020-01-20T10:26:04.687Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPBdraw": {
+			"timeStamp": "2020-01-20T10:26:04.669Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"AJUI_ExtractColor": {
+			"timeStamp": "2020-01-20T10:26:04.652Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBTextFontSize": {
+			"timeStamp": "2020-01-20T10:26:04.659Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Utl_fontAlignement2Constant": {
+			"timeStamp": "2020-01-20T10:26:04.650Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBBGColor": {
+			"timeStamp": "2020-01-20T10:26:04.645Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBAreaWidth": {
+			"timeStamp": "2020-01-20T10:26:04.645Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBPercentDisplay": {
+			"timeStamp": "2020-01-20T10:26:04.657Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBBorderSize": {
+			"timeStamp": "2020-01-20T10:26:04.646Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HDI_setPB_percent": {
+			"timeStamp": "2020-01-20T10:26:04.648Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBPercentValue": {
+			"timeStamp": "2020-01-20T10:26:04.660Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PB_initFormulas": {
+			"timeStamp": "2020-01-20T10:26:04.652Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPBdrawSVG": {
+			"timeStamp": "2020-01-20T10:26:04.650Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBackgroundFillCo": {
+			"timeStamp": "2020-01-20T10:26:04.664Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBackgroundWidth": {
+			"timeStamp": "2020-01-20T10:26:04.663Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_initSVGCircle": {
+			"timeStamp": "2020-01-20T10:26:04.651Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBTitle": {
+			"timeStamp": "2020-01-20T10:26:04.688Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"New AJUI_CircularProgressBar": {
+			"timeStamp": "2020-01-20T10:26:04.655Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"AJUI_GetSet_CPBTextFontStyle": {
+			"timeStamp": "2020-01-20T10:26:04.668Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBBarSpeed": {
+			"timeStamp": "2020-01-20T10:26:04.660Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBCornerRadius": {
+			"timeStamp": "2020-01-20T10:26:04.644Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBSubtitle": {
+			"timeStamp": "2020-01-20T10:26:04.685Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HDI_Dialog_TestCPB": {
+			"timeStamp": "2020-01-20T10:26:04.689Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"AJUI_GetSet_CPBTextFontName": {
+			"timeStamp": "2020-01-20T10:26:04.666Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_LaunchBarberShopProcess": {
+			"timeStamp": "2020-01-20T10:26:04.661Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Method20": {
+			"timeStamp": "2020-01-20T10:26:04.648Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPBStopProcess": {
+			"timeStamp": "2020-01-20T10:26:04.686Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_ResizePictObjAfterDraw": {
+			"timeStamp": "2020-01-20T10:26:04.662Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBarWidth": {
+			"timeStamp": "2020-01-20T10:26:04.664Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBPictFormObjName": {
+			"timeStamp": "2020-01-20T10:26:04.670Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBPercentDisplay": {
+			"timeStamp": "2020-01-20T10:26:04.666Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_initSVGArc": {
+			"timeStamp": "2020-01-20T10:26:04.653Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_ProgressBar_Info": {
+			"timeStamp": "2020-01-20T12:20:48.046Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true,
+				"lang": "en"
+			}
+		},
+		"AJUI_StorageHandler": {
+			"timeStamp": "2020-01-20T10:26:04.687Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBPictFormObjName": {
+			"timeStamp": "2020-01-20T10:26:04.657Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_LaunchCPBBarberShopProcess": {
+			"timeStamp": "2020-01-20T10:26:04.684Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBTextFontSize": {
+			"timeStamp": "2020-01-20T10:26:04.667Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HDI_Dialog_Dashboard": {
+			"timeStamp": "2020-01-20T10:26:04.690Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"AJUI_LaunchCPBProcess": {
+			"timeStamp": "2020-01-20T10:26:04.670Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBTextPosition": {
+			"timeStamp": "2020-01-20T10:26:04.689Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBAreaHeight": {
+			"timeStamp": "2020-01-20T10:26:04.646Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PBdraw": {
+			"timeStamp": "2020-01-20T10:26:04.643Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"AJUI_GetSet_CPBRadius": {
+			"timeStamp": "2020-01-20T10:26:04.662Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBBarColor": {
+			"timeStamp": "2020-01-20T10:26:04.656Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBBarOffset": {
+			"timeStamp": "2020-01-20T10:26:04.657Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBarLinecap": {
+			"timeStamp": "2020-01-20T10:26:04.665Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Utl_fontStyle2Constant": {
+			"timeStamp": "2020-01-20T10:26:04.649Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PBProcessHandler": {
+			"timeStamp": "2020-01-20T10:26:04.644Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPBProcessHandler": {
+			"timeStamp": "2020-01-20T10:26:04.669Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBTextFontStyle": {
+			"timeStamp": "2020-01-20T10:26:04.658Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPB_Init": {
+			"timeStamp": "2020-01-20T10:52:34.529Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PBanimationHandler": {
+			"timeStamp": "2020-01-20T10:26:04.643Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"HDI_Dialog_MultiBarbershop": {
+			"timeStamp": "2020-01-20T10:26:04.691Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"AJUI_PB_buildComponent": {
+			"timeStamp": "2020-01-20T10:26:04.692Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_LaunchPBProcess": {
+			"timeStamp": "2020-01-20T10:26:04.661Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBTextFontName": {
+			"timeStamp": "2020-01-20T10:26:04.658Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBAnimation": {
+			"timeStamp": "2020-01-20T10:26:04.688Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBackgroundColor": {
+			"timeStamp": "2020-01-20T10:26:04.663Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PBStopProcess": {
+			"timeStamp": "2020-01-20T10:26:04.661Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPB_InitFormulas": {
+			"timeStamp": "2020-01-20T10:26:04.655Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_CPBanimationHandler": {
+			"timeStamp": "2020-01-20T10:26:04.683Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"AJUI_GetSet_CPBPercentValue": {
+			"timeStamp": "2020-01-20T10:26:04.666Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_PBBorderColor": {
+			"timeStamp": "2020-01-20T10:26:04.647Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_GetSet_CPBBarSpeed": {
+			"timeStamp": "2020-01-20T10:26:04.665Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"AJUI_PB_Init": {
+			"timeStamp": "2020-01-20T10:26:04.649Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"New AJUI_ProgressBar": {
+			"timeStamp": "2020-01-20T10:26:04.654Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"AJUI_GetSet_PBTextFontColor": {
+			"timeStamp": "2020-01-20T10:26:04.691Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(AJUI_autoRadiusSizeCalc)": {
+			"timeStamp": "2020-01-20T10:26:04.693Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(AJUI_GetSet_PBTextAlign)": {
+			"timeStamp": "2020-01-20T10:26:04.659Z",
+			"attributes": {
+				"invisible": true
+			}
+		}
+	}
+}

@@ -1,0 +1,682 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onDataChange",
+		"onCloseBox"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": -3,
+					"left": -1,
+					"width": 1163,
+					"height": 530,
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": -3,
+					"left": -1,
+					"width": 1163,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 422,
+					"left": 108,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 7,
+					"left": 83,
+					"width": 271,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 71,
+					"left": 103,
+					"width": 203,
+					"height": 30,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI ProgressBar"
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 422,
+					"left": 103,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 507,
+					"left": 1142,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				}
+			}
+		},
+		{
+			"objects": {
+				"cbpPercentGroupLabel_fo": {
+					"type": "groupBox",
+					"top": 192,
+					"left": 932,
+					"width": 203,
+					"height": 247,
+					"text": "Percent value"
+				},
+				"cbpContainerGroupLabel_fo": {
+					"type": "groupBox",
+					"top": 189,
+					"left": 497,
+					"width": 203,
+					"height": 250,
+					"text": "Background bar"
+				},
+				"Button": {
+					"type": "button",
+					"top": 470,
+					"left": 516,
+					"width": 114,
+					"height": 35,
+					"text": "Launch CPB",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"circularPB_fo": {
+					"type": "input",
+					"top": 113,
+					"left": 103,
+					"width": 165,
+					"height": 161,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpPercentValueCurrent_fo": {
+					"type": "ruler",
+					"top": 451,
+					"left": 1007,
+					"width": 110,
+					"height": 11,
+					"dataSource": "Form:C1466.mycpb.cpb.percent.value.current",
+					"continuousExecution": false,
+					"showGraduations": true,
+					"labelsPlacement": "bottom",
+					"max": 100,
+					"graduationStep": 25,
+					"step": 0,
+					"numberFormat": "### ##0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 9,
+					"method": "ObjectMethods/cbpPercentValueCurrent_fo.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Thermometer": {
+					"type": "progress",
+					"top": 80,
+					"left": 496,
+					"width": 634,
+					"height": 28,
+					"dataSource": "Form:C1466.mycpb.cpb.radius",
+					"continuousExecution": false,
+					"showGraduations": true,
+					"labelsPlacement": "bottom",
+					"min": 0,
+					"max": 150,
+					"graduationStep": 25,
+					"step": 10,
+					"numberFormat": "### ##0",
+					"enterable": true,
+					"method": "ObjectMethods/Thermometer.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 59,
+					"left": 496,
+					"width": 134,
+					"height": 17,
+					"text": "Radius"
+				},
+				"cbpContainerWidth_fo": {
+					"type": "input",
+					"top": 209,
+					"left": 624,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bgBar.width",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 209,
+					"left": 504,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Width"
+				},
+				"cbpContainerColor_fo": {
+					"type": "input",
+					"top": 237,
+					"left": 624,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bgBar.fillColor",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 237,
+					"left": 504,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Internal color"
+				},
+				"cbpContainerborderColor_fo": {
+					"type": "input",
+					"top": 263,
+					"left": 624,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bgBar.color",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 263,
+					"left": 504,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Border color"
+				},
+				"cbpProgressbarGroupLabel_fo": {
+					"type": "groupBox",
+					"top": 190,
+					"left": 709,
+					"width": 203,
+					"height": 249,
+					"text": "Circular progressbar"
+				},
+				"cbpBarWidth_fo": {
+					"type": "input",
+					"top": 209,
+					"left": 840,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bar.width",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 209,
+					"left": 720,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Width"
+				},
+				"cbpBarColor_fo": {
+					"type": "input",
+					"top": 237,
+					"left": 820,
+					"width": 85,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bar.color",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 237,
+					"left": 720,
+					"width": 93,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Color"
+				},
+				"cbpBarSpeed_fo": {
+					"type": "input",
+					"top": 264,
+					"left": 840,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bar.speed",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"sa_fo": {
+					"type": "text",
+					"top": 264,
+					"left": 720,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Speed animation"
+				},
+				"cbpPercentDisplay_fo": {
+					"type": "checkbox",
+					"top": 209,
+					"left": 946,
+					"width": 171,
+					"height": 21,
+					"dataSource": "Form:C1466.mycpb.cpb.percent.display",
+					"text": "Display %",
+					"focusable": false,
+					"method": "ObjectMethods/cbpPercentDisplay_fo.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"cbpPercentFontName_fo": {
+					"type": "input",
+					"top": 257,
+					"left": 1002,
+					"width": 123,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.percent.font.name",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpPercentFontNameLabel_fo": {
+					"type": "text",
+					"top": 257,
+					"left": 940,
+					"width": 54,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Font(s)"
+				},
+				"cbpPercentFontSize_fo": {
+					"type": "input",
+					"top": 284,
+					"left": 1060,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.percent.font.size",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "###0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpPercentFontSizeLabel_fo": {
+					"type": "text",
+					"top": 284,
+					"left": 940,
+					"width": 118,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Font size (size)"
+				},
+				"cbpPercentFontStyle_fo": {
+					"type": "input",
+					"top": 243,
+					"left": 1167,
+					"width": 65,
+					"height": 17,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.mycpb.cpb.percent.font.style",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"min": 0,
+					"max": 100,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpPercentFontStyleLabel_fo": {
+					"type": "text",
+					"top": 308,
+					"left": 957,
+					"width": 63,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Font style"
+				},
+				"style_obj": {
+					"type": "dropdown",
+					"top": 308,
+					"left": 1034,
+					"width": 91,
+					"height": 22,
+					"method": "ObjectMethods/style_obj.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"cbpPercentFontColor_fo": {
+					"type": "input",
+					"top": 337,
+					"left": 1060,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.percent.font.color",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpPercentFontColorLabel_fo": {
+					"type": "text",
+					"top": 337,
+					"left": 940,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Color"
+				},
+				"cbpPercentvalue.current_fo": {
+					"type": "text",
+					"top": 445,
+					"left": 932,
+					"width": 54,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Percent"
+				},
+				"cbpBarLinecap_fo": {
+					"type": "input",
+					"top": 296,
+					"left": 840,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.bar.linecap",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 296,
+					"left": 720,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "line ending"
+				},
+				"linecap_popup_fo": {
+					"type": "dropdown",
+					"top": 324,
+					"left": 773,
+					"width": 132,
+					"height": 19,
+					"focusable": false,
+					"choiceList": [
+						"butt",
+						"round",
+						"square"
+					],
+					"method": "ObjectMethods/linecap_popup_fo.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 470,
+					"left": 832,
+					"width": 93,
+					"height": 32,
+					"text": "Stop",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"runBarbershop_cb": {
+					"type": "checkbox",
+					"top": 470,
+					"left": 650,
+					"width": 154,
+					"height": 32,
+					"focusable": false,
+					"text": "Launch BarberShop",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/runBarbershop_cb.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"cbpBSTitle_label": {
+					"type": "input",
+					"top": 377,
+					"left": 1060,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.text.title",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpBSTitle": {
+					"type": "text",
+					"top": 377,
+					"left": 940,
+					"width": 115,
+					"height": 17,
+					"textAlign": "left",
+					"text": "Text Title"
+				},
+				"cbpBSSubtitle_label": {
+					"type": "input",
+					"top": 402,
+					"left": 1060,
+					"width": 65,
+					"height": 17,
+					"dataSource": "Form:C1466.mycpb.cpb.text.subtitle",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"cbpBSSubitle": {
+					"type": "text",
+					"top": 402,
+					"left": 940,
+					"width": 115,
+					"height": 17,
+					"textAlign": "left",
+					"text": "Text Subtitle"
+				},
+				"cbpPercentDisplay_fo1": {
+					"type": "checkbox",
+					"top": 229,
+					"left": 946,
+					"width": 171,
+					"height": 21,
+					"dataSource": "Form:C1466.mycpb.cpb.percent.animation",
+					"text": "Display animation",
+					"focusable": false,
+					"method": "ObjectMethods/cbpPercentDisplay_fo1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 505,
+					"left": 932,
+					"width": 203,
+					"height": 14,
+					"dataSource": "AJUI_ProgressBar_Info ",
+					"stroke": "#808080",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 505,
+					"left": 236,
+					"width": 171,
+					"height": 14,
+					"dataSource": "AJUI_infoLab ",
+					"stroke": "#808080",
+					"textAlign": "left",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			},
+			"entryOrder": [
+				"Button",
+				"cbpPercentValueCurrent_fo",
+				"cbpContainerWidth_fo",
+				"cbpContainerColor_fo",
+				"cbpContainerborderColor_fo",
+				"cbpBarWidth_fo",
+				"cbpBarColor_fo",
+				"cbpBarSpeed_fo",
+				"cbpPercentDisplay_fo",
+				"cbpPercentFontName_fo",
+				"cbpPercentFontSize_fo",
+				"cbpPercentFontStyle_fo",
+				"style_obj",
+				"cbpPercentFontColor_fo",
+				"cbpBarLinecap_fo",
+				"linecap_popup_fo",
+				"Button8",
+				"cbpBSTitle_label",
+				"cbpBSSubtitle_label",
+				"cbpPercentDisplay_fo1",
+				"Variable1"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

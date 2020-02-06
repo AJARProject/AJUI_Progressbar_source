@@ -1,0 +1,251 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onCloseBox"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 664,
+					"height": 398,
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 664,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 272,
+					"left": 33,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 10,
+					"left": 82,
+					"width": 471,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 74,
+					"left": 142,
+					"width": 350,
+					"height": 30,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI ProgressBar"
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 272,
+					"left": 28,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 378,
+					"left": 644,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				}
+			}
+		},
+		{
+			"objects": {
+				"PB_fo1": {
+					"type": "input",
+					"top": 126,
+					"left": 124,
+					"width": 398,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"PB_fo2": {
+					"type": "input",
+					"top": 166,
+					"left": 124,
+					"width": 398,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"PB_fo3": {
+					"type": "input",
+					"top": 206,
+					"left": 124,
+					"width": 398,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 326,
+					"left": 286,
+					"width": 99,
+					"height": 36,
+					"text": "Process 1",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 326,
+					"left": 406,
+					"width": 99,
+					"height": 36,
+					"text": "Process 2",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton2": {
+					"type": "button",
+					"top": 326,
+					"left": 526,
+					"width": 99,
+					"height": 36,
+					"text": "Process 3",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton3": {
+					"type": "button",
+					"top": 326,
+					"left": 166,
+					"width": 99,
+					"height": 36,
+					"text": "Stop",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 372,
+					"left": 463,
+					"width": 186,
+					"height": 14,
+					"dataSource": "AJUI_ProgressBar_Info ",
+					"stroke": "#808080",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 372,
+					"left": 28,
+					"width": 171,
+					"height": 14,
+					"dataSource": "AJUI_infoLab ",
+					"stroke": "#808080",
+					"textAlign": "left",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

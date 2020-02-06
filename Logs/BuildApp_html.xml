@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="LogStyleSheet.xsl"?>
+<verifylog operation="Build" name="AJUI_ProgressBar" structure="Macintosh HD:Users:gabriel:Dropbox (AJAR SA):Dossier de l&apos;équipe AJAR SA:AJ Suite:AJUI:AJUI_Progressbar:v17:AJUI_ProgressBar.4dbase:ProgressBar.4DB" data="" os="macOS Version 10.14.5 (Build 18F132)">
+<start_timer time="2019-11-18T17:13:48+01:00"/>
+<stop_timer time="2019-11-18T17:13:49+01:00" success="true" user_canceled="false"/>
+<step title="Building component">
+<step title="Start compilation [2019-11-18T17:13:48]"></step>
+<step title="Start copying files : Macintosh HD:Users:gabriel:Dropbox (AJAR SA):Dossier de l&apos;équipe AJAR SA:AJ Suite:AJUI:AJUI_Progressbar:v17:AJUI_ProgressBar_Build:Components:AJUI_ProgressBar.4dbase:AJUI_ProgressBar.4DC"></step>
+<step title="End copying files : Macintosh HD:Users:gabriel:Dropbox (AJAR SA):Dossier de l&apos;équipe AJAR SA:AJ Suite:AJUI:AJUI_Progressbar:v17:AJUI_ProgressBar_Build:Components:AJUI_ProgressBar.4dbase:AJUI_ProgressBar.4DC"></step>
+<step title="End compilation [2019-11-18T17:13:49]"></step>
+</step>
+</verifylog>

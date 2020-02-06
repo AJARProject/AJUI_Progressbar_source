@@ -1,0 +1,20 @@
+﻿{
+	"forms": {
+		"AJUI_testCircularPB": {
+			"timeStamp": "2020-01-20T10:35:59.596Z",
+			"destination": "detailScreen"
+		},
+		"AJUI_testProgressbar": {
+			"timeStamp": "2020-01-20T10:36:20.829Z",
+			"destination": "detailScreen"
+		},
+		"AJUI_testDashboard": {
+			"timeStamp": "2020-01-20T10:36:06.404Z",
+			"destination": "detailScreen"
+		},
+		"AJUI_testMultiBarbershop": {
+			"timeStamp": "2020-01-20T10:36:12.509Z",
+			"destination": "detailScreen"
+		}
+	}
+}

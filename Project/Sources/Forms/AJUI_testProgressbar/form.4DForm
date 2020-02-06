@@ -1,0 +1,673 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onDataChange",
+		"onCloseBox"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 474,
+					"height": 822,
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 474,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 583,
+					"left": 374,
+					"width": 62,
+					"height": 69,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 10,
+					"left": 2,
+					"width": 471,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I "
+				},
+				"Text15": {
+					"type": "text",
+					"top": 74,
+					"left": 62,
+					"width": 350,
+					"height": 30,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI ProgressBar"
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 583,
+					"left": 369,
+					"width": 75,
+					"height": 69,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 802,
+					"left": 454,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 568,
+					"left": 15,
+					"width": 435,
+					"height": 177,
+					"stroke": "#0000CD",
+					"text": "Percent"
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 368,
+					"left": 240,
+					"width": 210,
+					"height": 162,
+					"stroke": "#0000CD",
+					"text": "Progress bar"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 367,
+					"left": 15,
+					"width": 210,
+					"height": 192,
+					"stroke": "#0000CD",
+					"text": "Progress Area"
+				},
+				"Button": {
+					"type": "button",
+					"top": 757,
+					"left": 189,
+					"width": 154,
+					"height": 32,
+					"text": "Launch ProgressBar",
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"AJUI_PBpict_container": {
+					"type": "input",
+					"top": 146,
+					"left": 46,
+					"width": 222,
+					"height": 81,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 282,
+					"left": 121,
+					"width": 86,
+					"height": 28,
+					"text": "25%",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 282,
+					"left": 230,
+					"width": 86,
+					"height": 28,
+					"text": "75%",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 282,
+					"left": 340,
+					"width": 86,
+					"height": 28,
+					"text": "100%",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 282,
+					"left": 15,
+					"width": 86,
+					"height": 28,
+					"text": "0%",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 757,
+					"left": 357,
+					"width": 93,
+					"height": 32,
+					"text": "Stop",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 469,
+					"left": 252,
+					"width": 79,
+					"height": 13,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"text": "Speed"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 385,
+					"left": 159,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.progressArea.width",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 385,
+					"left": 39,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Width"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 413,
+					"left": 39,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Heigt"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 441,
+					"left": 39,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Corner Radius"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 501,
+					"left": 39,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Border color Radius"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 413,
+					"left": 159,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.progressArea.height",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 441,
+					"left": 159,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.progressArea.cornerRadius",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 501,
+					"left": 159,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.progressArea.borderColor",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 530,
+					"left": 39,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Background color "
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 530,
+					"left": 159,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.progressArea.backgroundColor",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 413,
+					"left": 307,
+					"width": 115,
+					"height": 17,
+					"textAlign": "left",
+					"text": "Bar color"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 413,
+					"left": 252,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.bar.color",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 469,
+					"left": 39,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Border size"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 469,
+					"left": 159,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.progressArea.borderSize",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"progressbar_ruler": {
+					"type": "ruler",
+					"top": 330,
+					"left": 21,
+					"width": 429,
+					"height": 18,
+					"continuousExecution": false,
+					"showGraduations": true,
+					"labelsPlacement": "bottom",
+					"max": 100,
+					"graduationStep": 10,
+					"numberFormat": "### ##0",
+					"method": "ObjectMethods/progressbar_ruler.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 387,
+					"left": 307,
+					"width": 115,
+					"height": 17,
+					"textAlign": "left",
+					"text": "Bar offset"
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 387,
+					"left": 252,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.bar.offset",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"runBarbershop_cb": {
+					"type": "checkbox",
+					"top": 757,
+					"left": 15,
+					"width": 154,
+					"height": 32,
+					"focusable": false,
+					"text": "Launch BarberShop",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/runBarbershop_cb.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"speed_thermo": {
+					"type": "progress",
+					"top": 480,
+					"left": 252,
+					"width": 189,
+					"height": 27,
+					"dataSource": "Form:C1466.progressbar.bar.speed",
+					"continuousExecution": false,
+					"showGraduations": true,
+					"labelsPlacement": "bottom",
+					"min": 0,
+					"max": 10,
+					"graduationStep": 2,
+					"numberFormat": "### ##0",
+					"enterable": true,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 9,
+					"method": "ObjectMethods/speed_thermo.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 689,
+					"left": 293,
+					"width": 95,
+					"height": 19,
+					"dataSource": "Form:C1466.progressbar.percent.display",
+					"text": "display Title",
+					"method": "ObjectMethods/Check Box.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 596,
+					"left": 149,
+					"width": 182,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.percent.font.name",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"min": 0,
+					"max": 100,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 596,
+					"left": 29,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Font Name"
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 622,
+					"left": 149,
+					"width": 50,
+					"height": 17,
+					"dataSource": "Form:C1466.progressbar.percent.font.size",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"min": 0,
+					"max": 100,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 622,
+					"left": 29,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Font Size"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 649,
+					"left": 29,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Font style"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 690,
+					"left": 29,
+					"width": 115,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Text position"
+				},
+				"style_obj": {
+					"type": "dropdown",
+					"top": 646,
+					"left": 149,
+					"width": 158,
+					"height": 22,
+					"method": "ObjectMethods/style_obj.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 709,
+					"left": 293,
+					"width": 145,
+					"height": 21,
+					"dataSource": "Form:C1466.progressbar.percent.animation",
+					"text": "Activate animation",
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"position_obj": {
+					"type": "dropdown",
+					"top": 688,
+					"left": 149,
+					"width": 124,
+					"height": 24,
+					"method": "ObjectMethods/position_obj.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 797,
+					"left": 259,
+					"width": 191,
+					"height": 14,
+					"dataSource": "AJUI_ProgressBar_Info ",
+					"stroke": "#808080",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 797,
+					"left": 15,
+					"width": 171,
+					"height": 14,
+					"dataSource": "AJUI_infoLab ",
+					"stroke": "#808080",
+					"textAlign": "left",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			},
+			"entryOrder": [
+				"Button",
+				"Button3",
+				"Button4",
+				"Button5",
+				"Button6",
+				"Button8",
+				"Variable2",
+				"Variable3",
+				"Variable4",
+				"Variable5",
+				"Variable6",
+				"Variable7",
+				"Variable8",
+				"progressbar_ruler",
+				"Variable9",
+				"Check Box",
+				"Variable10",
+				"Variable11",
+				"style_obj",
+				"Check Box1",
+				"position_obj",
+				"Variable1"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}
