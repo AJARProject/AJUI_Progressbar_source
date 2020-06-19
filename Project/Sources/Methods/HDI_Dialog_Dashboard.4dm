@@ -1,4 +1,4 @@
-//%attributes = {"shared":true}
+//%attributes = {"invisible":true,"shared":true}
   // HDI_Dialog_Dashboard (  ) 
 
 If (False:C215)

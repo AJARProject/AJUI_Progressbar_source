@@ -1,7 +1,7 @@
 //%attributes = {"invisible":true}
   // AJUI_LaunchBarberShopProcess ( {  $windowRef_l } ) 
   //
-  // $windowRef_l : (text) (optional) description
+  // $windowRef_l : (longint) (optional) description
   //
   // Launcher method to draw the Barbershop
 

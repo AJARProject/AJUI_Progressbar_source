@@ -1,4 +1,4 @@
-//%attributes = {"shared":true}
+//%attributes = {"invisible":true,"shared":true}
   // New AJUI_ProgressBar ( ) -> return
   //
   // return : (text) (return) return PB instance

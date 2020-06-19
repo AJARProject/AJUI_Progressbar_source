@@ -1,4 +1,4 @@
-//%attributes = {"shared":true}
+//%attributes = {"invisible":true,"shared":true}
   // HDI_Dialog_TestCPB (  ) 
 
 If (False:C215)

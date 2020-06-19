@@ -1,9 +1,9 @@
 //%attributes = {"invisible":true}
   // AJUI_LaunchPBProcess ( {  $windowRef_l } ) 
   //
-  // $windowRef_l : (text) (optional) description
+  // $windowRef_l : (longint) (optional) form window ref
   //
-  // Launcher method to draw the circular progressbar
+  // Launcher method to draw the progressbar
 
 If (False:C215)
 	  // ----------------------------------------------------

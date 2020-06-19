@@ -4,7 +4,7 @@
   // $autoSize : (boolean) auto sized radius
   // return : (boolean) (return) return current mode
   //
-  // Getter and setter to activate/desactivate the calculation of the radius based on the form object size
+  // Getter and setter to activate/inactivate the calculation of the radius based on the form object size
 
 If (False:C215)
 	  // ----------------------------------------------------
