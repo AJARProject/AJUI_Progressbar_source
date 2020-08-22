@@ -603,7 +603,7 @@
 					"left": 946,
 					"width": 171,
 					"height": 21,
-					"dataSource": "Form:C1466.mycpb.cpb.percent.animation",
+					"dataSource": "Form:C1466.mycpb.cpb.percent.animated",
 					"text": "Display animation",
 					"focusable": false,
 					"method": "ObjectMethods/cbpPercentDisplay_fo1.4dm",
