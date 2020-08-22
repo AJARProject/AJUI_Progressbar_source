@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 //%attributes = {"invisible":true}
 // test_setPB_percent ( param1 { ; param2 } ) -> return
 //

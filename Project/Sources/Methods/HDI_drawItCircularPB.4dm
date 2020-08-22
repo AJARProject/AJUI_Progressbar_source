@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 //%attributes = {"invisible":true}
 // AJUI_drawItCircularPB ( param1 { ; param2 } ) -> return
 //
