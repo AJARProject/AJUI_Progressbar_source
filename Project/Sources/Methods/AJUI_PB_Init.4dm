@@ -58,7 +58,7 @@ $instance_obj.text.position:="middle"
 $instance_obj.bar.isBarbershop:=False:C215  // default simple progressbar
 $instance_obj.bar.color:="#3B88FD:80"  // default color and opacity
 $instance_obj.bar.speed:=1  // speed 1sec / 60 %
-$instance_obj.bar.offset:=1.5
+$instance_obj.bar.offset:=1
 $instance_obj.bar.pictureFormObjName:=""  //default object name
 
 // percent definition

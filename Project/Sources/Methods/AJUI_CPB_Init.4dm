@@ -48,6 +48,7 @@ $instance_obj.cpb.bgBar.fillColor:="none"
 //progressBar definition
 $instance_obj.cpb.bar.pictureFormObjName:=""
 $instance_obj.cpb.bar.width:=12
+$instance_obj.cpb.bar.offset:=1
 $instance_obj.cpb.bar.color:="#3B88FD:80"  // default color and opacity
 $instance_obj.cpb.bar.speed:=1  // speed 1sec / 60 %
 $instance_obj.cpb.bar.linecap:="butt"  // butt, round, square
