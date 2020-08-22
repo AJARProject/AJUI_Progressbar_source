@@ -1,6 +1,5 @@
 ﻿<!-- AJUI_ProgressBar.new ( ) -> instance of ProgressBar class  -->
 
-
 ## Description
 
 Exposes the ProgressBar class at the host base. Replace New AJUI_ProgressBar since V18R3
@@ -9,9 +8,9 @@ Exposes the ProgressBar class at the host base. Replace New AJUI_ProgressBar sin
   AJUI_ProgressBar.new ( ) -> instance
 ```
 
-| Parameter | Type | In/Out | Description |
-| --------- | ---- | | ------ | ----------- |
-| instance | object | out | instance of ProgressBar class |
+| Parameter | Type    | In/Out | Description                    |
+| --------- | ------- | ------ | ------------------------------ |
+| instance  | object  | out    | instance of ProgressBar class  |
 
 ## Example
 

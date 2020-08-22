@@ -1,6 +1,5 @@
 ﻿<!-- AJUI_ProgressBar_Info ( ) -> version -->
 
-
 ## Description
 
 Show the version info of the component.
@@ -9,10 +8,9 @@ Show the version info of the component.
   AJUI_ProgressBar_Info ( ) -> version
 ```
 
-| Parameter | Type | In/Out | Description |
-| --------- | ---- | ------ | ----------- |
-| version | text | out | version info of the component |
-
+| Parameter |  Type | In/Out  | Description                    |
+| --------- | ----- | ------- | ------------------------------ |
+| version   | text  | out     | version info of the component  |
 
 ## Example
 
