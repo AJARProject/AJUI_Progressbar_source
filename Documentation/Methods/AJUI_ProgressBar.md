@@ -9,22 +9,22 @@ Exposes the ProgressBar class at the host base. Replace New AJUI_ProgressBar sin
   AJUI_ProgressBar.new ( ) -> instance
 ```
 
-| Parameter | Type | In/Out | Description |
-| --------- | ---- | ------ | ----------- |
+| Parameter | Type | In/Out | Description |
+| --------- | ---- | | ------ | ----------- |
 | instance | object | out | instance of ProgressBar class |
 
 ## Example
 
 ```4d
   C_Object ($mypb)
-  
+
   //create a  progessbar and call it
-  $mypb:=AJUI_ProgressBar.new() 
-  $mypb.PBAreaHeight(20)
-  $mypb.PBAreaWidth(400)
-  $mypb.PBPercentValue(0)
-  $mypb.PBTitle("Step 0/3")
-  $mypb.PBActivateAnimation(False)
-  $mypb.PBPictFormObjName("PB1")
-  $mypb.LaunchProgressBar()
+  $mypb:=AJUI_ProgressBar.new()
+  $mypb.height(20)
+  $mypb.width(400)
+  $mypb.value(0)
+  $mypb.title("Step 0/3")
+  $mypb.animated(False)
+  $mypb.name("PB1")
+  $mypb.draw()
 ```
