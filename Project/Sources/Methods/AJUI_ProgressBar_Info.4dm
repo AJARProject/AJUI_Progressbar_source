@@ -19,6 +19,6 @@ End if
 
 C_TEXT:C284($0)
 
-$version_t:="2.0.0-Build21"  // Fri, 26 Jun 2020 12:34:55 GMT
+$version_t:="2.0.0-Build23"  // Sat, 22 Aug 2020 17:13:26 GMT
 
 $0:="AJUI ProgressBar (v18-R4) : "+$version_t
