@@ -1,19 +1,27 @@
 ﻿{
 	"forms": {
 		"AJUI_testCircularPB": {
-			"timeStamp": "2020-03-11T08:12:01.409Z",
+			"timeStamp": "2020-08-22T06:47:14.340Z",
 			"destination": "detailScreen"
 		},
 		"AJUI_testProgressbar": {
-			"timeStamp": "2020-03-11T08:12:01.415Z",
+			"timeStamp": "2020-08-22T07:13:24.449Z",
 			"destination": "detailScreen"
 		},
 		"AJUI_testDashboard": {
-			"timeStamp": "2020-03-11T08:12:01.410Z",
+			"timeStamp": "2020-04-23T10:17:17.311Z",
 			"destination": "detailScreen"
 		},
 		"AJUI_testMultiBarbershop": {
-			"timeStamp": "2020-03-11T08:12:01.412Z",
+			"timeStamp": "2020-04-23T10:17:17.312Z",
+			"destination": "detailScreen"
+		},
+		"AJUI_testProgressbar_class": {
+			"timeStamp": "2020-08-22T07:14:22.331Z",
+			"destination": "detailScreen"
+		},
+		"AJUI_testCircularPB_class": {
+			"timeStamp": "2020-08-22T06:47:14.340Z",
 			"destination": "detailScreen"
 		}
 	}

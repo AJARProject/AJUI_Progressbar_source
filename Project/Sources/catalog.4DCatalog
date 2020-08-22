@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="ProgressBar" uuid="A39891DD93D34E60BED339F3A102F9AC" collation_locale="en">
+<base name="AJUI_ProgressBar" uuid="A39891DD93D34E60BED339F3A102F9AC" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
 	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="AJUI_ProgressBar" structure_file_name="ProgressBar" data_file_path=":ProgressBar.4DD">
 		<journal_file journal_file_enabled="true"/>
