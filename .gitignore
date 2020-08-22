@@ -22,7 +22,7 @@ userPreferences.*
 /Settings/*
 /userPreferences*/*
 /Builds/*
-/Trash/*
+*/Trash/*
 
 # Don't need the data file, indexes, symbols, or journal
 *.4DD
