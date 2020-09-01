@@ -54,8 +54,8 @@ If (($instance_obj.progressArea.width+$instance_obj.progressArea.height)=0)
 	$autoResize:=True:C214
 	
 Else 
-	$pbContainerWidth_l:=$instance_obj.progressArea.width
-	$pbContainerHeight_l:=$instance_obj.progressArea.height
+	$pbContainerWidth_l:=$instance_obj.progressArea.width-10
+	$pbContainerHeight_l:=$instance_obj.progressArea.height-10
 	$widthSVG_l:=$pbContainerWidth_l+10
 	$heightSVG_l:=$pbContainerHeight_l+10
 	
