@@ -143,10 +143,10 @@
 				},
 				"AJUI_PBpict_container": {
 					"type": "input",
-					"top": 146,
-					"left": 46,
-					"width": 222,
-					"height": 81,
+					"top": 160,
+					"left": 35,
+					"width": 400,
+					"height": 40,
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
 					"fill": "transparent",
@@ -670,5 +670,6 @@
 	"$4d": {
 		"version": "1",
 		"kind": "form"
-	}
+	},
+	"geometryStamp": 12
 }
