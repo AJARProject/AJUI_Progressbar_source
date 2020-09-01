@@ -1,20 +1,20 @@
 //%attributes = {"invisible":true}
-  // AJUI_LaunchCPBProcess ( {  $windowRef_l } ) 
-  //
-  // $windowRef_l : (text) (optional) description
-  //
-  // Launcher method to draw the circular progressbar
+// AJUI_LaunchCPBProcess ( {  $windowRef_l } ) 
+//
+// $windowRef_l : (text) (optional) description
+//
+// Launcher method to draw the circular progressbar
 
 If (False:C215)
-	  // ----------------------------------------------------
-	  // User name (OS): Gary Criblez
-	  // Date and time: 28.05.19, 15:17:06
-	  // ----------------------------------------------------
-	  // Method: AJUI_LaunchCPBProcess
-	  // Description
-	  // 
-	  //
-	  // ----------------------------------------------------
+	// ----------------------------------------------------
+	// User name (OS): Gary Criblez
+	// Date and time: 28.05.19, 15:17:06
+	// ----------------------------------------------------
+	// Method: AJUI_LaunchCPBProcess
+	// Description
+	// 
+	//
+	// ----------------------------------------------------
 End if 
 
 C_LONGINT:C283($1;$windowRef_l)
@@ -33,8 +33,6 @@ If (This:C1470.cpb.bar.isBarbershop)
 	This:C1470.cpb.bar.isBarbershop:=False:C215
 End if 
 
-AJUI_StorageHandler ($instanceName_t;False:C215)
-
-$processName_t:="AJUI_CProgressBarProcess"+$instanceName_t
-$newprocess:=New process:C317("AJUI_CPBProcessHandler";0;$processName_t;This:C1470;*)
+AJUI_StorageHandler($instanceName_t;False:C215)
+AJUI_CPBProcessHandler(This:C1470)
 This:C1470.cpb.percent.value.previous:=This:C1470.cpb.percent.value.current

@@ -1,20 +1,20 @@
 //%attributes = {"invisible":true}
-  // AJUI_LaunchPBProcess ( {  $windowRef_l } ) 
-  //
-  // $windowRef_l : (longint) (optional) form window ref
-  //
-  // Launcher method to draw the progressbar
+// AJUI_LaunchPBProcess ( {  $windowRef_l } ) 
+//
+// $windowRef_l : (longint) (optional) form window ref
+//
+// Launcher method to draw the progressbar
 
 If (False:C215)
-	  // ----------------------------------------------------
-	  // User name (OS): Gary Criblez
-	  // Date and time: 27.05.19, 09:10:13
-	  // ----------------------------------------------------
-	  // Method: AJUI_LaunchPBProcess
-	  // Description
-	  // 
-	  //
-	  // ----------------------------------------------------
+	// ----------------------------------------------------
+	// User name (OS): Gary Criblez
+	// Date and time: 27.05.19, 09:10:13
+	// ----------------------------------------------------
+	// Method: AJUI_LaunchPBProcess
+	// Description
+	// 
+	//
+	// ----------------------------------------------------
 End if 
 
 C_LONGINT:C283($1;$windowRef_l)
@@ -33,8 +33,6 @@ If (This:C1470.bar.isBarbershop)
 	This:C1470.bar.isBarbershop:=False:C215
 End if 
 
-AJUI_StorageHandler ($instanceName_t;False:C215)
-
-$processName_t:="AJUI_ProgressBarProcess"+$instanceName_t
-$newprocess:=New process:C317("AJUI_PBProcessHandler";0;$processName_t;This:C1470;*)
+AJUI_StorageHandler($instanceName_t;False:C215)
+AJUI_PBProcessHandler(This:C1470)
 This:C1470.percent.value.previous:=This:C1470.percent.value.current
