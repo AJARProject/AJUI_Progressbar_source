@@ -36,8 +36,8 @@ $instance_obj.msc:=New object:C1471  //miscellaneous
 $instance_obj.msc.windowRef:=0
 
 // container definition
-$instance_obj.progressArea.width:=360
-$instance_obj.progressArea.height:=20
+$instance_obj.progressArea.width:=0
+$instance_obj.progressArea.height:=0
 $instance_obj.progressArea.cornerRadius:=2
 $instance_obj.progressArea.borderColor:="#3276DC"
 $instance_obj.progressArea.backgroundColor:="none"
